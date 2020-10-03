@@ -25,3 +25,15 @@
   background-size: cover;
   position: relative;
 }
+.form-control{
+  background: transparent;
+}
+.form-row ::placeholder {
+  color:white;
+}
+.form-group ::placeholder {
+  color:white;
+}
+.box_contact{
+  padding: 80px;
+}
