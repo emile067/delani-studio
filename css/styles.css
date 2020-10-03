@@ -34,3 +34,13 @@
 .form-group ::placeholder {
   color:white;
 }
+.mouse_icon{
+  position: absolute;
+  bottom: 10px;
+}
+.hover-item {
+  transition: 0.3s;
+}
+.hover-item:hover {
+  transform: translate(0, -10px);
+}
