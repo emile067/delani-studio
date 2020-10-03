@@ -15,7 +15,7 @@
   position: relative;
 }
 .box{
-  padding: 60px;
+  padding: 25px;
 }
 .cimage{
   background-image: url("../images/bg/c_image.jpg");
@@ -33,7 +33,4 @@
 }
 .form-group ::placeholder {
   color:white;
-}
-.box_contact{
-  padding: 80px;
 }
