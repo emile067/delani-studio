@@ -1,0 +1,8 @@
+.himage{
+  background-image: url("../images/bg/h_img.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
