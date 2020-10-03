@@ -17,3 +17,11 @@
 .box{
   padding: 60px;
 }
+.cimage{
+  background-image: url("../images/bg/c_image.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
