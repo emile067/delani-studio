@@ -6,3 +6,11 @@
   background-size: cover;
   position: relative;
 }
+.simage{
+  background-image: url("../images/bg/s_image.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
