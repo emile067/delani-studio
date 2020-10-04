@@ -19,4 +19,9 @@ $(document).ready(function() {
       return false;    //<---- Add this line
     }
   });
+  $('div.card').hover(function() {
+    $(this).find('div.overlay').fadeIn();
+    }, function() {
+    $(this).find('div.overlay').fadeOut();
+    });
 });
