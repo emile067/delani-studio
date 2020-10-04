@@ -11,4 +11,12 @@ $(document).ready(function() {
     $(".prod-show").toggle();
     $(".prod-hide").toggle();
   });
+  $('textarea#message').keypress(function (e) {
+    if (e.which == 13) {
+      $('form#feedback').submit();
+      var feedname= $('#name').val();
+      alert(feedname + ". Thanks for your feedback. It's highly appreciated.");
+      return false;    //<---- Add this line
+    }
+  });
 });
